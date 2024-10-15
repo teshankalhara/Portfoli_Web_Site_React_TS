@@ -38,12 +38,12 @@ const NavBar = () => {
                             <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                                 <div
                                     onClick={() => navigate('/')}
-                                    className="cursor-pointer text-white text-3xl font-bold lg:mr-52"
+                                    className="cursor-pointer text-white text-2xl font-bold lg:mr-32"
                                 >
                                     Portfolio
                                 </div>
-                                <div className="hidden sm:ml-6 sm:block">
-                                    <div className="flex space-x-4">
+                                <div className="hidden sm:ml-2 md:ml-3 sm:block">
+                                    <div className="flex md:space-x-2">
                                         {navigation.map((item) => (
                                             <Link
                                                 key={item.name}
@@ -52,7 +52,7 @@ const NavBar = () => {
                                                     location.pathname === item.path
                                                         ? 'text-slate-900 bg-white'
                                                         : 'text-white hover:bg-white hover:text-slate-900',
-                                                    'rounded-md px-3 py-2 text-sm font-bold'
+                                                    'rounded-md md:px-3 px-2 py-2 md:text-sm font-bold sm:text-xs'
                                                 )}
                                                 aria-current={location.pathname === item.path ? 'page' : undefined}
                                             >
