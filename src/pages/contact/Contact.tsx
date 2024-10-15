@@ -1,4 +1,4 @@
-const Skill = () => {
+const Contact = () => {
     return (
         <div id='contact' className='text-gray-600 body-font'>
             <div className='container mx-auto flex px-5 py-24 items-center justify-center flex-col'>
@@ -10,4 +10,4 @@ const Skill = () => {
     )
 }
 
-export default Skill
+export default Contact

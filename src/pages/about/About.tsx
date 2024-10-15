@@ -1,6 +1,6 @@
-const Skill = () => {
+const About = () => {
     return (
-        <div id='contact' className='text-gray-600 body-font'>
+        <div id='about' className='text-gray-600 body-font'>
             <div className='container mx-auto flex px-5 py-24 items-center justify-center flex-col'>
                 <div data-aos='fade-up' data-aos-delay='300' className='text-center lg:w-2/3 w-full'>
                     
@@ -10,4 +10,4 @@ const Skill = () => {
     )
 }
 
-export default Skill
+export default About
