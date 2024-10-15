@@ -1,12 +1,15 @@
+import Background from "../../components/background/Background"
+
 const Skill = () => {
     return (
-        <div id='contact' className='text-gray-600 body-font'>
-            <div className='container mx-auto flex px-5 py-24 items-center justify-center flex-col'>
-                <div data-aos='fade-up' data-aos-delay='300' className='text-center lg:w-2/3 w-full'>
-                    
+        <>
+            <Background />
+            <div id='skill' className='absolute top-0 flex lg:flex-row lg:items-center lg:justify-center w-full px-4 lg:px-40 sm:pb-24 md:pt-16 sm:pt-24 md:pb-24 md:mt-16 mt-12 z-10'>
+                <div data-aos='fade-up' className='basis-4/5 md:text-left mt-10 md:mt-0'>
+
                 </div>
             </div>
-        </div>
+        </>
     )
 }
 
