@@ -12,16 +12,16 @@ import { useEffect } from 'react'
 import AOS from 'aos'
 
 function App() {
-  useEffect(()=>{
+  useEffect(() => {
     AOS.init({
-      duration:1000,
+      duration: 1000,
       once: true,
     })
-  },[])  
+  }, [])
   return (
     <>
       <BrowserRouter>
-      <NavBar />
+        <NavBar />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/contact' element={<Contact />} />
