@@ -9,7 +9,7 @@ const Project = () => {
     return (
         <>
             <Background />
-            <div id='project' className='absolute top-0 flex lg:flex-row lg:items-center lg:justify-center w-full px-4 lg:px-40 sm:pb-24 md:pt-16 sm:pt-24 md:pb-24 md:mt-16 mt-12 z-10'>
+            <div id='project' data-aos='fade-up' data-aos-delay='300'  className='absolute top-0 flex lg:flex-row lg:items-center lg:justify-center w-full px-4 lg:px-40 sm:pb-24 md:pt-16 sm:pt-24 md:pb-24 md:mt-16 mt-12 z-10'>
                 <div className='max-w-4xl mx-auto grid grid-cols-1 lg:max-w-5xl lg:gap-x-20 lg:grid-cols-2'>
                     <div className='md:pt-0 md:mt-0 mt-12 pt-52 relative p-3 col-start-1 row-start-1 flex flex-col-reverse rounded-lg bg-gradient-to-t from-black/75 via-black/0 sm:bg-none sm:row-start-2 sm:p-0 lg:row-start-1'>
                         <h1 data-aos='fade-up' data-aos-delay='400' className='mt-2 text-lg font-semibold text-white md:text-[40px] capitalize'>latest technologies</h1>
