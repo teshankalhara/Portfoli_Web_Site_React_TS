@@ -4,17 +4,17 @@ import ExperienceCard from "../../components/experienceCard/ExperienceCard"
 const desc = "I'm a Software Engineer passionate about building seamless, user-friendly web apps. With full-stack expertise, I focus on optimizing both front-end and back-end for performance and user experience."
 
 const experience = [
-    { exp: "4+ Years", title: "experience" },
-    { exp: "1.5K+", title: "client" },
+    { exp: "2+ Years", title: "experience" },
+    { exp: "500+", title: "client" },
     { exp: "50+", title: "completed projects" },
-    { exp: "30+", title: "services" },
+    { exp: "10+", title: "services" },
 ]
 
 const Experience = () => {
     return (
         <>
             <Background />
-            <div id='experience' className='absolute top-0 flex lg:flex-row lg:items-center lg:justify-center w-full px-4 lg:px-40 sm:pb-24 md:pt-12 sm:pt-24 md:pb-24 md:mt-16 mt-12 z-10'>
+            <div id='experience' data-aos='fade-up' data-aos-delay='300'  className='absolute top-0 flex lg:flex-row lg:items-center lg:justify-center w-full px-4 lg:px-40 sm:pb-24 md:pt-12 sm:pt-24 md:pb-24 md:mt-16 mt-12 z-10'>
                 <div className='container px-5 py-10 mx-auto'>
                     <div className='md:pt-0 md:mt-0 mt-12 pt-52 mb-3 relative p-3 col-start-1 row-start-1 flex flex-col-reverse rounded-lg bg-gradient-to-t from-black/75 via-black/0 sm:bg-none sm:row-start-2 sm:p-0 lg:row-start-1'>
                         <h1 data-aos='fade-up' data-aos-delay='400' className='mt-2 text-lg font-semibold text-white md:text-[40px] capitalize'>latest technologies</h1>

@@ -4,7 +4,7 @@ const About = () => {
     return (
         <>
             <Background />
-            <div id='about' className='absolute top-0 flex lg:flex-row lg:items-center lg:justify-center w-full px-4 lg:px-40 sm:pb-24 md:pt-16 sm:pt-24 md:pb-24 md:mt-16 mt-12 z-10'>
+            <div id='about' data-aos='fade-up' data-aos-delay='300'  className='absolute top-0 flex lg:flex-row lg:items-center lg:justify-center w-full px-4 lg:px-40 sm:pb-24 md:pt-16 sm:pt-24 md:pb-24 md:mt-16 mt-12 z-10'>
                 <div data-aos='fade-up' className='basis-4/5 md:text-left mt-10 md:mt-0'>
 
                 </div>
